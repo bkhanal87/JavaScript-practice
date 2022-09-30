@@ -29,3 +29,19 @@ fruits2.sort();
 document.getElementById("demo2").innerHTML = fruits2;
 
 // Reversing an Array
+// The reverse() method reverses the elements in an array.
+// You can use it to sort an array in descending order
+
+const fruits3 = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits3;
+fruits3.sort();
+fruits3.reverse();
+document.getElementById("demo2").innerHTML = fruits3;
+
+
+// sorting an array
+const points = [40, 100, 1, 5, 25, 10];
+document.getElementById("demo1").innerHTML = points;
+
+points.sort(function (a, b) {return b - a});
+document.getElementById("demo2").innerHTML = points;
