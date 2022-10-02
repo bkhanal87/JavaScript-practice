@@ -1,4 +1,8 @@
-const btn = document.querySelector("#btn");
-btn.addEventListener('click', () => {
-    alert("Hello World");
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        alert(button.id);
+    });
 });
+
