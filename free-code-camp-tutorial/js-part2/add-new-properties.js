@@ -9,6 +9,6 @@ const myDog = {
     "friends": ["Chase", "Bruno", "Emily"]
 };
 
-myDog.sound = "woof";
+myDog.bark = "woof";
 
-console.log(myDog) // sound property with a value of "woof" added
+console.log(myDog) // bark property with a value of "woof" added
