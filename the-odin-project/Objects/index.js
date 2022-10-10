@@ -43,10 +43,10 @@ let alternate_user = {};
 alternate_user["likes birds"] = true;
 
 // get
-alert(user["likes birds"]); // true
+alert(alternate_user["likes birds"]); // true
 
 // delete 
-delete user["likes birds"]; 
+delete alternate_user["likes birds"]; 
 
 // We can use square brackets in an object literal, when creating an object. That’s called computed properties.
 
