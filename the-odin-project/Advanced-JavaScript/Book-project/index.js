@@ -37,5 +37,4 @@ function addBookToLibrary() {
     }
 }
 
-
 // Write a function that loops through the array and displays each book on the page.
